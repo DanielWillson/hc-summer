@@ -32,6 +32,36 @@ h1, h2, h3, h4, h5 {
 	transition: 0.2s;
 }
 
+.button {
+	padding: 12px 20px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	font-family: GothamLight;
+	display: inline-block;
+	font-size: 16px;
+}
+
+a .button {
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: white;
+}
+
+a .button:hover {
+	color: black;
+}
+
+a {
+
+}
+
+a:hover {
+
+}
+
 /* END SETUP */
 /* BEGIN TOP */
 
@@ -83,7 +113,7 @@ header {
 	margin-left: 18px;
 }
 
-.nav li.button {
+.nav li.hamburger {
 	display: none;
 }
 
@@ -139,29 +169,6 @@ header {
 
 .column-content {
 	padding: 0 18px;
-}
-
-
-.overview .button {
-	padding: 12px 20px;
-	border: 2px solid white;
-	text-transform: uppercase;
-	font-family: GothamLight;
-	display: inline-block;
-	font-size: 16px;
-}
-
-.overview a .button {
-	color: white;
-	text-decoration: none;
-}
-
-.overview .button:hover {
-	background: white;
-}
-
-.overview a .button:hover {
-	color: black;
 }
 
 .overview h2 {
@@ -260,16 +267,16 @@ header {
 		display: none;
 	}
 
-	.nav li.button {
+	.nav li.hamburger {
 		display: block;
 		height: 30px;
 	}
 
-	.nav li.button:hover {
+	.nav li.hamburger:hover {
 		cursor: pointer;
 	}
 
-	.nav li.button img {
+	.nav li.hamburger img {
 		height: 100%;
 		width: auto;
 	}
