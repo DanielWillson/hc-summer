@@ -108,24 +108,95 @@ header {
 }
 
 .hero-text h1 {
-	font-weight: bold;
+	font-weight: 900;
 }
 
 /* END HERO */
 /* BEGIN OVERVIEW */
 
+.overview {
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #345673 , #0e1c27); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #345673 , #0e1c27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	padding: 72px 0;
+}
+
+.column {
+	display: inline-block;
+	width: 33.33%;
+	vertical-align: top;
+}
+
+.column-image {
+	text-align: center;
+}
+
+.column-image img {
+	width: 95%;
+	height: auto;
+}
+
+.column-content {
+	padding: 0 9px;
+}
+
+.button {
+	padding: 12px 20px;
+	border: 2px solid white;
+	text-transform: uppercase;
+	font-family: GothamLight;
+	display: inline-block;
+	font-size: 16px;
+}
+
+a .button {
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: white;
+}
+
+a .button:hover {
+	color: black;
+}
+
+
+
+.overview h2 {
+}
+
+.overview h3 {
+	font-style: italic;
+}
+
 .pitch-image,
 .pitch-text {
 	display: inline-block;
-	width: 45%;
 	vertical-align: top;
-	margin: 18px 0;
+	margin: 36px 0;
 }
 
 .pitch-image img {
 	width: 100%;
 	height:; auto;
 }
+
+.pitch-image {
+	width: 47.5%;
+}
+
+.pitch-text {
+	width: 47.5%
+}
+
+.overview .left {
+	margin-right: 5%;
+}
+
+
 
 /* END OVERVIEW */
 
