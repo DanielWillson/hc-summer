@@ -138,10 +138,11 @@ header {
 }
 
 .column-content {
-	padding: 0 9px;
+	padding: 0 18px;
 }
 
-.button {
+
+.overview .button {
 	padding: 12px 20px;
 	border: 2px solid white;
 	text-transform: uppercase;
@@ -150,20 +151,18 @@ header {
 	font-size: 16px;
 }
 
-a .button {
+.overview a .button {
 	color: white;
 	text-decoration: none;
 }
 
-.button:hover {
+.overview .button:hover {
 	background: white;
 }
 
-a .button:hover {
+.overview a .button:hover {
 	color: black;
 }
-
-
 
 .overview h2 {
 }
@@ -196,9 +195,18 @@ a .button:hover {
 	margin-right: 5%;
 }
 
-
-
 /* END OVERVIEW */
+/* BEGIN PULLQUOTE */
+
+.pullquote {
+	padding: 27px 0;
+}
+
+.pullquote p {
+	font-style: italic;
+}
+
+/* END PULLQUOTE */
 
 @media screen and (max-width: 900px) {
 
@@ -217,6 +225,29 @@ a .button:hover {
 		margin-left: 16px;
 	}
 	/* END HEADER */
+	/* BEGIN OVERVIEW */
+
+	.column {
+		display: block;
+		width: 100%;
+	}
+
+	.column .column-image,
+	.column .column-content {
+		display: inline-block;
+		width: 50%;
+		padding: 0;
+		text-align: left;
+		vertical-align: top;
+		margin-bottom: 36px;
+	}
+
+	.overview h2 {
+		margin-top: 0;
+	}
+
+
+	/* END OVERVIEW */
 
 }
 
@@ -270,4 +301,23 @@ a .button:hover {
 
 }
 
+@media screen and (max-width: 675px) {
+
+	/* BEGIN OVERVIEW */
+
+	.column .column-image,
+	.column .column-content {
+		display: block;
+		width: 100%;
+	}
+
+	.column .column-image {
+		margin-bottom: 18px;
+	}
+
+
+	/* END OVERVIEW */
+
+
+}
 
