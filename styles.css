@@ -5,13 +5,14 @@ body {
 	font-size: 18px;
 }
 
-p, span {
+p, span, li {
 	font-family: 'GothamLight';
 }
 
 h1, h2, h3, h4, h5 {
 	font-weight: normal;
 	font-family: 'Museo';
+	margin-top: 0;
 }
 
 .main-container {
@@ -172,6 +173,7 @@ header {
 }
 
 .overview h2 {
+	margin: 18px 0;
 }
 
 .overview h3 {
@@ -206,7 +208,7 @@ header {
 /* BEGIN PULLQUOTE */
 
 .pullquote {
-	padding: 27px 0;
+	padding: 72px 0;
 	background: #ECE9E6; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -216,7 +218,81 @@ header {
 	font-style: italic;
 }
 
+.pullquote .headshot {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+
+.pullquote .headshot img {
+	width: 85%;
+	height: auto;
+	vertical-align: top;
+}
+
+.pullquote .quote {
+	display: inline-block;
+	width: 75%;
+}
+
 /* END PULLQUOTE */
+/* BEGIN EXPERTS */
+
+.experts {
+	color: white;
+	background: #485563; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	        
+}
+
+.experts .experts-content {
+	padding: 72px 0;
+}
+
+.experts h1 {
+	margin-top: 0;
+	margin-bottom: 36px;
+}
+
+.experts ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.experts li {
+	display: inline-block;
+	width: 14%;
+	margin-right: 3.2%;
+	margin-bottom: 36px;
+}
+
+.experts li:nth-child(6n) {
+	margin-right: 0;
+}
+
+.experts li h3 {
+	margin: 9px 0;
+	text-transform: uppercase;
+	font-family: GothamBold;
+}
+
+.experts li p {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+
+.experts li a {
+	color: #7ecdff;
+}
+
+.experts .headshot img {
+	width: 100%;
+	height: auto;
+}
+
+/* END EXPERTS */
 
 @media screen and (max-width: 900px) {
 
