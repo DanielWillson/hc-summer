@@ -7,6 +7,7 @@ body {
 
 p, span, li {
 	font-family: 'GothamLight';
+	line-height: 1.4em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -56,11 +57,12 @@ a .button:hover {
 }
 
 a {
-
+	color: rgb(2, 143, 197);
+	text-decoration: none;
 }
 
 a:hover {
-
+	text-decoration: underline;
 }
 
 /* END SETUP */
@@ -237,9 +239,9 @@ header {
 
 .pullquote.collins {
 	color: white;
-	background: #232526; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* END PULLQUOTE */
@@ -378,7 +380,7 @@ header {
 }
 
 .learn-more .signup .button {
-	background: #3167ff;
+	background: rgb(2, 143, 197);
 }
 
 
@@ -386,9 +388,61 @@ header {
 	background: white;
 }
 
-
-
 /* END LEARN MORE */
+/* BEGIN FOOTER */
+
+footer {
+	color: white;
+
+	background: #141E30; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
+
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 15px 15px -15px inset, rgba(0, 0, 0, 0.8) 0px -15px 15px -15px inset;
+}
+
+.footer-container {
+	padding: 72px 0;
+}
+
+footer .footer-logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 12.5%;
+	margin-right: 5%;
+}
+
+footer .footer-logo img {
+	width: 100%;
+	height: auto;
+}
+
+footer .footer-text {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding-right: 5%;
+}
+
+footer .footer-links {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	padding-left: 5%;
+	border-left: 1px solid white;	
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* END FOOTER */
+
 
 
 
@@ -552,6 +606,26 @@ header {
 
 
 	/* END LEARN MORE */
+	/* BEGIN FOOTER */
+	footer .footer-logo {
+		display: block;
+		margin-bottom: 18px;
+		width: 100px;
+	}
+
+	footer .footer-text {
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 36px;
+	}
+
+	footer .footer-links {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		margin-bottom: 18px;
+		border-left: none;
+	}
 
 }
 
