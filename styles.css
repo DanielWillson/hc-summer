@@ -235,6 +235,13 @@ header {
 	width: 75%;
 }
 
+.pullquote.collins {
+	color: white;
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* END PULLQUOTE */
 /* BEGIN EXPERTS */
 
@@ -294,6 +301,62 @@ header {
 }
 
 /* END EXPERTS */
+/* BEGIN PARTNERS */
+
+.partners {
+	background: white;
+	color: black;
+}
+
+.partners .partners-content {
+	padding: 72px 0;
+}
+
+.partners h1 {
+	margin-top: 0;
+	margin-bottom: 36px;
+}
+
+.partners ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.partners li {
+	display: inline-block;
+	width: 20%;
+	margin-right: 5%;
+	margin-bottom: 36px;
+	vertical-align: middle;
+}
+
+.partners li:nth-child(4n) {
+	margin-right: 0;
+}
+
+.partners li h3 {
+	margin: 9px 0;
+	text-transform: uppercase;
+	font-family: GothamBold;
+}
+
+.partners li p {
+	font-size: 16px;
+	margin-top: 18px;
+	margin-bottom: 9px;
+}
+
+.partners li a {
+	color: #7ecdff;
+}
+
+.partners .partner img {
+	width: 100%;
+	height: auto;
+}
+
+/* END PARTNERS */
 
 @media screen and (max-width: 1000px) {
 
@@ -431,7 +494,22 @@ header {
 	}
 
 	/* END EXPERTS */
+	/* BEGIN PARTNERS */
 
+	.partners li {
+		width: 28%;
+		margin-right: 8%;
+	}
+
+	.partners li:nth-child(4n) {
+		margin-right: 8%;
+	}
+
+	.partners li:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	/* END PARTNERS */
 
 }
 
@@ -462,14 +540,14 @@ header {
 
 	.experts .headshot {
 		display: inline-block;
-		vertical-align: middle;
+		vertical-align: top;
 		width: 15%;
 		margin-right: 5%;
 	}
 
 	.experts .expert-info {
 		display: inline-block;
-		vertical-align: middle;
+		vertical-align: top;
 		width: 80%;
 	}
 
@@ -482,6 +560,36 @@ header {
 	}
 
 	/* END EXPERTS */
+	/* BEGIN PARTNERS */
+
+	.partners li {
+		width: 45%;
+		margin-right: 10%;
+	}
+
+	.partners li:nth-child(3n) {
+		margin-right: 10%;
+	}
+
+	.partners li:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	/* END PARTNERS */
+	/* BEGIN PULLQUOTE */
+
+	.pullquote .headshot {
+		display: block;
+		width: 30%;
+		margin-bottom: 36px;
+	}
+
+	.pullquote .quote {
+		display: block;
+		width: 100%;
+	}
+
+	/* END PULLQUOTE */
 
 
 
