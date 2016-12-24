@@ -357,6 +357,40 @@ header {
 }
 
 /* END PARTNERS */
+/* BEGIN LEARN MORE */
+
+.learn-more {
+	background-image: url('images/bg2.png');
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-align: center;
+	height: 100vh;
+}
+
+.learn-more-content {
+	padding-top: 250px;
+}
+
+.learn-more .button {
+	margin: 18px;
+	margin-bottom: 9px;
+}
+
+.learn-more .signup .button {
+	background: #3167ff;
+}
+
+
+.learn-more .signup .button:hover {
+	background: white;
+}
+
+
+
+/* END LEARN MORE */
+
+
 
 @media screen and (max-width: 1000px) {
 
@@ -510,6 +544,14 @@ header {
 	}
 
 	/* END PARTNERS */
+	/* BEGIN LEARN MORE */
+
+	.learn-more-content {
+		padding-top: 150px;
+	}
+
+
+	/* END LEARN MORE */
 
 }
 
