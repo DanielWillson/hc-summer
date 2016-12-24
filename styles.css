@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5 {
 	font-family: GothamLight;
 	display: inline-block;
 	font-size: 16px;
+	margin-right: 18px;
 }
 
 a .button {
@@ -57,7 +58,6 @@ a .button:hover {
 }
 
 a {
-	color: rgb(2, 143, 197);
 	text-decoration: none;
 }
 
@@ -379,12 +379,16 @@ header {
 	margin-bottom: 9px;
 }
 
-.learn-more .signup .button {
+.signup {
+	display: inline-block;
+}
+
+.signup .button {
 	background: rgb(2, 143, 197);
 }
 
 
-.learn-more .signup .button:hover {
+.signup .button:hover {
 	background: white;
 }
 
@@ -400,6 +404,10 @@ footer {
 	        
 
 	box-shadow: rgba(0, 0, 0, 0.8) 0px 15px 15px -15px inset, rgba(0, 0, 0, 0.8) 0px -15px 15px -15px inset;
+}
+
+footer a {
+	color: rgb(2, 143, 197);
 }
 
 .footer-container {
