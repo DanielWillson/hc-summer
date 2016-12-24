@@ -262,12 +262,13 @@ header {
 
 .experts li {
 	display: inline-block;
-	width: 14%;
-	margin-right: 3.2%;
+	width: 18%;
+	margin-right: 2%;
 	margin-bottom: 36px;
+	vertical-align: top;
 }
 
-.experts li:nth-child(6n) {
+.experts li:nth-child(5n) {
 	margin-right: 0;
 }
 
@@ -293,6 +294,28 @@ header {
 }
 
 /* END EXPERTS */
+
+@media screen and (max-width: 1000px) {
+
+	/* BEGIN EXPERTS */
+
+	.experts li {
+		width: 23%;
+		margin-right: 2%;
+	}
+
+	.experts li:nth-child(5n) {
+		margin-right: 2%;
+	}
+
+	.experts li:nth-child(5n) {
+		margin-right: 0;
+	}
+
+	/* END EXPERTS */
+
+
+}
 
 @media screen and (max-width: 900px) {
 
@@ -392,6 +415,24 @@ header {
 
 	/* END PULLQUOTE */
 
+	/* BEGIN EXPERTS */
+
+	.experts li {
+		width: 30%;
+		margin-right: 3.33%;
+	}
+
+	.experts li:nth-child(5n) {
+		margin-right: 0;
+	}
+
+	.experts li:nth-child(3n) {
+		margin-right: 3.33%;
+	}
+
+	/* END EXPERTS */
+
+
 }
 
 @media screen and (max-width: 675px) {
@@ -410,6 +451,38 @@ header {
 
 
 	/* END OVERVIEW */
+	/* BEGIN EXPERTS */
+
+	.experts li {
+		display: block;
+		width: 100%;
+		margin-right: 0%;
+		margin-bottom: 18px;
+	}
+
+	.experts .headshot {
+		display: inline-block;
+		vertical-align: middle;
+		width: 15%;
+		margin-right: 5%;
+	}
+
+	.experts .expert-info {
+		display: inline-block;
+		vertical-align: middle;
+		width: 80%;
+	}
+
+	.experts li h3 {
+		margin-top: 0;
+	}
+
+	.experts h2 {
+		margin-top: 36px;
+	}
+
+	/* END EXPERTS */
+
 
 
 }
