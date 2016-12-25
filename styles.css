@@ -390,6 +390,12 @@ header {
 
 .signup .button:hover {
 	background: white;
+	border: 2px solid rgb(2, 143, 197);
+}
+
+.signup a .button:hover {
+	color: black;
+	font-family: GothamMedium;
 }
 
 /* END LEARN MORE */
