@@ -553,6 +553,32 @@ header {
 }
 
 /* END LEARN MORE */
+/* BEGIN STEPS */
+
+.steps {
+	padding: 36px 0;
+}
+
+.step {
+	padding: 9px 0;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.steps .step-heading {
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 700;
+	font-family: Gotham;
+	color: white;
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #345673 , #0e1c27); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #345673 , #0e1c27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0;
+	padding: 10px;
+}
+
+/* STEPS */
 /* BEGIN FOOTER */
 
 footer {
