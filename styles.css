@@ -193,6 +193,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+.vh {
+	min-height: 585px;
+}
+
 /* END SETUP */
 /* BEGIN TOP */
 
@@ -747,7 +751,7 @@ footer ul {
 	/* BEGIN LEARN MORE */
 
 	.learn-more-content {
-		padding-top: 150px;
+		padding-top: 75px;
 	}
 
 
