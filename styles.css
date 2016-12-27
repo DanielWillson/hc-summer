@@ -187,6 +187,7 @@ a .button:hover {
 
 a {
 	text-decoration: none;
+	color: rgb(2, 143, 197);
 }
 
 a:hover {
@@ -208,6 +209,20 @@ a:hover {
 }
 
 /* END TOP */
+/* BEGIN APPLY HERO */
+
+.apply-hero {
+	background-image: url('images/bg3.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+}
+
+.apply-hero .filter {
+	height: 600px;
+}
+
+/* END APPLY HERO */
 /* HEADER */
 
 header {
@@ -549,10 +564,6 @@ footer {
 	        
 
 	box-shadow: rgba(0, 0, 0, 0.8) 0px 15px 15px -15px inset, rgba(0, 0, 0, 0.8) 0px -15px 15px -15px inset;
-}
-
-footer a {
-	color: rgb(2, 143, 197);
 }
 
 .footer-container {

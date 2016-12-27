@@ -2,7 +2,6 @@ window.onload = function() {
 	var vh = $(".vh").height() + 60;
 	console.log(vh);
 	$(".vh").height(vh);
-	$(".filter").height(vh);
 	console.log("test");
 };
 
