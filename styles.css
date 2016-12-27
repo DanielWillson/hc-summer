@@ -223,6 +223,20 @@ a:hover {
 }
 
 /* END APPLY HERO */
+/* BEGIN TUITION HERO */
+
+.tuition-hero {
+	background-image: url('images/bg3.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+}
+
+.tuition-hero .filter {
+	height: 600px;
+}
+
+/* END TUITION HERO */
 /* HEADER */
 
 header {
