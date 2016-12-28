@@ -336,12 +336,8 @@ header {
 	padding: 0 27px;
 }
 
-.overview h2 {
+.column-content h2 {
 	margin: 18px 0;
-}
-
-.overview h3 {
-	font-style: italic;
 }
 
 .pitch-image,
@@ -592,7 +588,60 @@ header {
 	padding: 10px;
 }
 
-/* STEPS */
+/* END STEPS */
+/* BEGIN TUITION DATES */
+
+.tuition-dates {
+	text-align: center;
+}
+
+.tuition-dates .column {
+	padding-bottom: 36px;
+}
+
+.tuition-dates h1.heading {
+	padding-top: 36px;
+}
+
+.tuition-dates p {
+	margin: 0;
+}
+
+.tuition-dates .number h1 {
+	display: inline-block;
+	width: 275px;
+	text-align: center;
+	padding: 36px 0;
+	margin: 0;
+	color: white;
+	font-family: Gotham;
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.tuition-dates .number h1.first {
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #1c3243 , #0e1c27); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #1c3243 , #0e1c27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tuition-dates .number h1.second {
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #264157 , #1c3243); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #264157 , #1c3243); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tuition-dates .number h1.third {
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #345673 , #264157); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #345673 , #264157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* first right: #1c3243;
+second right: #264157;
+*/
+
+/* END TUITION DATES */
 /* BEGIN FOOTER */
 
 footer {
@@ -706,11 +755,27 @@ footer ul {
 		margin-bottom: 36px;
 	}
 
-	.overview h2 {
+	.column-content h2 {
 		margin-top: 0;
 	}
 
 	/* END OVERVIEW */
+	/* BEGIN TUITION DATES */
+
+	.column .number {
+		display: inline-block;
+		width: 40%;
+		margin-right: 5%;
+		text-align: right;
+		vertical-align: top;
+		margin-bottom: 36px;
+	}
+
+	.column .number h1 {
+		width: 225px;
+	}
+
+	/* END TUITION DATES */
 	/* BEGIN PARTNERS */
 
 	.partners ul {
@@ -834,17 +899,28 @@ footer ul {
 	/* BEGIN OVERVIEW */
 
 	.column .column-image,
+	.column .number,
 	.column .column-content {
 		display: block;
 		width: 100%;
 	}
 
-	.column .column-image {
+	.column .column-image,
+	.column .number {
 		margin-bottom: 18px;
 	}
 
 
 	/* END OVERVIEW */
+	/* BEGIN TUITION DATES */
+
+	.column .number,
+	.column .column-content,
+	.tuition-dates {
+		text-align: left;
+	}
+
+	/* END TUITION DATES */
 	/* BEGIN EXPERTS */
 
 	.experts li {
