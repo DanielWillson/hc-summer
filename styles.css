@@ -278,6 +278,11 @@ header {
 	margin-left: 18px;
 }
 
+.nav li.current a {
+	color: rgb(2, 143, 197);
+	text-decoration: underline;
+}
+
 .nav li.hamburger {
 	display: none;
 }
