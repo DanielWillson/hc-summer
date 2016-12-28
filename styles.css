@@ -637,9 +637,10 @@ header {
 	background: linear-gradient(to left, #345673 , #264157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* first right: #1c3243;
-second right: #264157;
-*/
+.tuition-dates .button {
+	margin-right: 0;
+	margin-top: 18px;
+}
 
 /* END TUITION DATES */
 /* BEGIN FOOTER */
