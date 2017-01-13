@@ -670,10 +670,39 @@ header {
 /* END SCHOLARSHIPS */
 /* BEGIN CURRICULUM HERO */
 
+.curriculum-hero {
+	background-image: url('images/bg2.png');
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+}
 
-
+.curriculum-hero .filter {
+	height: 600px;
+}
 
 /* END CURRICULUM HERO */
+/* BEGIN PART 1 */
+
+.part-1 {
+
+}
+
+/* END PART 1 */
+/* BEGIN PART 2 */
+
+.part-2 {
+
+}
+
+/* END PART 2 */
+/* BEGIN PART 3 */
+
+.part-3 {
+
+}
+
+/* END PART 3 */
 /* BEGIN FOOTER */
 
 footer {
