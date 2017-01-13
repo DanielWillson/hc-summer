@@ -5,6 +5,72 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="main.js"></script>
+	<script>
+		$(window).load(function () {
+			var fixmeTop = $('.part-1-heading').offset().top;
+			$(window).scroll(function() {
+			    var currentScroll = $(window).scrollTop();
+			    if (currentScroll >= fixmeTop) {
+			        $('.part-1-heading').css({
+			            position: 'fixed',
+			            top: '0'
+			        });
+			        $('.filler-fix-one').css({
+			        	height: '158px'
+			        });
+			    } else {
+			        $('.part-1-heading').css({
+			            position: 'relative'
+			        });
+			        $('.filler-fix-one').css({
+			        	height: '0'
+			        });
+			    }
+			});
+
+			var fixmeTop2 = $('.part-2-heading').offset().top;
+			$(window).scroll(function() {
+			    var currentScroll = $(window).scrollTop();
+			    if (currentScroll >= fixmeTop2) {
+			        $('.part-2-heading').css({
+			            position: 'fixed',
+			            top: '0'
+			        });
+			        $('.filler-fix-two').css({
+			        	height: '158px'
+			        });
+			    } else {
+			        $('.part-2-heading').css({
+			            position: 'relative'
+			        });
+			        $('.filler-fix-two').css({
+			        	height: '0'
+			        });
+			    }
+			});
+
+			var fixmeTop3 = $('.part-3-heading').offset().top;
+			$(window).scroll(function() {
+			    var currentScroll = $(window).scrollTop();
+			    if (currentScroll >= fixmeTop3) {
+			        $('.part-3-heading').css({
+			            position: 'fixed',
+			            top: '0'
+			        });
+			        $('.filler-fix-three').css({
+			        	height: '158px'
+			        });
+			    } else {
+			        $('.part-3-heading').css({
+			            position: 'relative'
+			        });
+			        $('.filler-fix-three').css({
+			        	height: '0'
+			        });
+			    }
+			});
+		});
+	</script>
 </head>
 <body>
 	<div class="curriculum-hero">
@@ -40,13 +106,16 @@
 			</div>
 		</div>
 	</div>
+	<div class="part-1-heading part-heading">
+		<div class="main-container">
+			<h1>Part 1/3: Skills Training</h1>
+			<h3>You’ll pick one of two tracks to immerse yourself in, each led by one of our expert instructors.</h3>
+		</div>
+	</div>
 	<div class="part-1">
 		<div class="main-container">
 			<div class="part-1-content">
-				<div class="part-1-heading">
-					<h1>Part 1: Skills Training</h1>
-					<h3>You’ll pick one of two tracks to immerse yourself in, each led by one of our expert instructors.</h3>
-				</div>
+				<div class="filler-fix-one"></div>
 				<div class="track-a">
 					<div class="track-a-heading">
 						<h2>Track A: Software Engineering</h2>
@@ -80,13 +149,16 @@
 			</div>
 		</div>
 	</div>
+	<div class="part-2-heading part-heading">
+		<div class="main-container">
+			<h1>Part 2/3: Industry Immersion</h1>
+			<h3>Something something about industry immersion will go here.</h3>
+		</div>
+	</div>
 	<div class="part-2">
 		<div class="main-container">
-			<div class="part-2-content">
-				<div class="part-2-heading">
-					<h1>Part 2: Industry Immersion</h1>
-					<h3>Something something about industry immersion will go here.</h3>
-				</div>
+			<div class="part-2-content">		
+				<div class="filler-fix-two"></div>
 				<div class="part-2-info">
 					<p>Here is some info about industry immersion.</p>
 					<br>
@@ -100,15 +172,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="part-3-heading part-heading">
+		<div class="main-container">
+			<h1>Part 3/3: Launching a Project</h1>
+			<h3>Something something about launching a project will go here.</h3>
+		</div>
+	</div>
 	<div class="part-3">
 		<div class="main-container">
 			<div class="part-3-content">
-				<div class="part-3-heading">
-					<h1>Part 3: Launching a Project</h1>
-					<h3>Something something about launching a project will go here.</h3>
-				</div>
+				<div class="filler-fix-three"></div>
 				<div class="part-3-info">
 					<p>Here is some info about starting a project.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
 					<br>
 					<br>
 					<br>
