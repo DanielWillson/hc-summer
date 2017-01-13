@@ -698,6 +698,12 @@ header {
 	color: white;
 }
 
+.part-heading h1 {
+	text-transform: uppercase;
+	font-family: Gotham;
+	font-weight: 800;
+}
+
 .part-1-heading {
 	z-index: 2;
 }
@@ -712,6 +718,86 @@ header {
 .track-b {
 	padding: 36px 0;
 }
+
+.track-heading h1 {
+	text-transform: uppercase;
+	font-family: Gotham;
+	font-weight: 800;
+}
+
+.learn-and-outcomes .learn-and-outcomes-column {
+	width: 47.5%;
+	margin-right: 5%;
+	display: inline-block;
+	margin-top: 36px;
+}
+
+.learn-and-outcomes .learn-and-outcomes-column:last-child {
+	margin-right: 0;
+}
+
+.learn-and-outcomes .image img {
+	width: 100%;
+	height: auto;
+}
+
+.learn-and-outcomes .content {
+	padding-top: 18px;
+}
+
+.curriculum-instructors h1 {
+	margin-bottom: 36px;
+}
+
+.curriculum-instructors .left {
+	display: inline-block;
+	vertical-align: top;
+	width: 47.5%;
+	margin-right: 5%;
+}
+
+.curriculum-instructors .right {
+	display: inline-block;
+	width: 47.5%;
+	vertical-align: top;
+}
+
+.curriculum-instructors .instructor {
+	margin-bottom: 36px;
+}
+
+.curriculum-instructors .headshot {
+	display: inline-block;
+	width: 15%;
+	margin-right: 5%;
+	vertical-align: top;
+}
+
+.curriculum-instructors .headshot img {
+	width: 100%;
+	height: auto;
+}
+
+.curriculum-instructors .bio {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+}
+
+.curriculum-instructors .bio h3 {
+	margin-bottom: 9px;
+}
+
+.curriculum-instructors .bio p {
+	margin-top: 9px;
+}
+
+.pullquote.curriculum {
+	background: white;
+	color: black;
+	padding: 36px 0;
+}
+
 
 /* END PART 1 */
 /* BEGIN PART 2 */
