@@ -729,6 +729,7 @@ header {
 	width: 47.5%;
 	margin-right: 5%;
 	display: inline-block;
+	vertical-align: top;
 	margin-top: 36px;
 }
 
@@ -763,7 +764,7 @@ header {
 }
 
 .curriculum-instructors .instructor {
-	margin-bottom: 36px;
+	margin-bottom: 24px;
 }
 
 .curriculum-instructors .headshot {
@@ -970,6 +971,31 @@ footer ul {
 	}
 
 	/* END PARTNERS */
+	/* BEGIN PART 1 */
+
+	.learn-and-outcomes .learn-and-outcomes-column {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}	
+
+	.learn-and-outcomes .learn-and-outcomes-column .image {
+		width: 70%;
+	}
+
+	.curriculum-instructors .left,
+	.curriculum-instructors .right {
+		display: block;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.curriculum-instructors .right .quote {
+		margin-top: 36px;
+	}
+
+
+	/* END PART 1 */
 
 }
 
@@ -1175,6 +1201,14 @@ footer ul {
 
 
 	/* END PARTS HEADING */
+	/* BEGIN PART 1 */
+
+	.learn-and-outcomes .learn-and-outcomes-column .image {
+		width: 100%;
+	}
+
+
+	/* END PART 1 */
 
 
 
