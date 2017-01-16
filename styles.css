@@ -5,7 +5,7 @@ body {
 	font-size: 18px;
 }
 
-p, span, li {
+p, span, li, table {
 	font-family: 'Gotham', sans-serif;
 	line-height: 1.4em;
 	font-weight: 300;
@@ -651,6 +651,19 @@ header {
 	padding: 36px 0;
 }
 
+.whats-included-left {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin-right: 10%;
+}
+
+.whats-included-right {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+
 /* END WHATS INCLUDED */
 /* BEGIN PROGRAM COMPARISON */
 
@@ -659,15 +672,21 @@ header {
 	padding: 36px 0;
 }
 
-/* END WHATS INCLUDED */
-/* BEGIN SCHOLARSHIPS */
 
-.scholarships {
-	
-	padding: 36px 0;
+.check,
+.x {
+	width: 30px;
+	height: auto;
 }
 
-/* END SCHOLARSHIPS */
+.logo {
+	max-height: 80px;
+	max-width: 180px;
+	height: auto;
+	width: auto;
+}
+
+/* END WHATS INCLUDED */
 /* BEGIN CURRICULUM HERO */
 
 .curriculum-hero {
@@ -814,7 +833,7 @@ header {
 .part-2 .industry {
 	display: inline-block;
 	vertical-align: top;
-	width: 16%;
+	width: 30%;
 	margin-right: 5%;
 	margin-bottom: 18px;
 }
@@ -1178,6 +1197,19 @@ footer ul {
 	}
 
 	/* END LEARN MORE */
+	/* BEGIN WHATS INCLUDED */
+
+	.whats-included-left,
+	.whats-included-right {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.whats-included-right {
+		margin-top: 36px;
+	}
+
+	/* END WHATS INCLUDED */
 	/* BEGIN FOOTER */
 	footer .footer-logo {
 		display: block;
