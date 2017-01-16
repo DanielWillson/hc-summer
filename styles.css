@@ -811,6 +811,35 @@ header {
 	z-index: 3;
 }
 
+.part-2 .industry {
+	display: inline-block;
+	vertical-align: top;
+	width: 16%;
+	margin-right: 5%;
+	margin-bottom: 18px;
+}
+
+.part-2 .industries .industry:last-child {
+	margin-right: 0;
+}
+
+.part-2 .industry .icon {
+	margin: 18px 0;
+}
+
+.part-2 .industry .icon img {
+	width: 100%;
+	height: auto;
+}
+
+.part-2 .industry h3 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: Gotham;
+	margin-bottom: 0;
+}
+
+
 /* END PART 2 */
 /* BEGIN PART 3 */
 
@@ -820,6 +849,27 @@ header {
 
 .part-3-heading {
 	z-index: 3;
+}
+
+.part-3 .projects .project {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 18px 0;
+	margin-right: 5%;
+}
+
+.part-3 .projects .project:last-child {
+	margin-right: 0;
+}
+
+.part-3 .project .image img {
+	width: 100%;
+	height: auto;
+}
+
+.part-3 .project .description {
+	margin: 18px 0;
 }
 
 /* END PART 3 */
@@ -898,6 +948,57 @@ footer ul {
 	}
 
 	/* END EXPERTS */
+	/* BEGIN PART 2 */
+
+	.part-2 .industry {
+		width: 100%;
+		margin: 36px 0;
+		margin-right: 0;
+		display: block;
+	}
+
+	.part-2 .industry .icon {
+		display: inline-block;
+		vertical-align: top;
+		width: 15%;
+		margin: 0;
+		margin-right: 5%;
+	}
+
+	.part-2 .industry .description {
+		display: inline-block;
+		vertical-align: top;
+		width: 80%;
+	}
+
+	/* END PART 2*/
+	/* BEGIN PART 3 */
+
+	.part-3 .projects {
+		padding: 18px 0;
+	}
+
+	.part-3 .projects .project {
+		display: block;
+		width: 100%;
+		margin: 18px 0;
+	}
+
+	.part-3 .project .image {
+		width: 30%;
+		margin-right: 5%;
+		vertical-align: top;
+		display: inline-block;
+	}
+
+	.part-3 .project .description {
+		display: inline-block;
+		width: 65%;
+		vertical-align: top;
+		margin: 0;
+	}
+
+	/* END PART 3 */
 
 
 }
@@ -1209,6 +1310,29 @@ footer ul {
 
 
 	/* END PART 1 */
+	/* BEGIN PART 2 */
+
+	.part-2 .industry {
+		margin: 18px 0;
+	}
+
+	/* END PART 2 */
+	/* BEGIN PART 3 */
+
+
+	.part-3 .project .image,
+	.part-3 .project .description {
+		width: 100%;
+		margin-right: 0;
+		display: block;
+	}
+
+	.part-3 .project .description {
+		margin: 18px 0 36px 0;
+	}
+
+
+	/* END PART 3 */
 
 
 
