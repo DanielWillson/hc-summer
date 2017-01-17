@@ -631,8 +631,8 @@ header {
 
 .tuition-dates .number h1.third {
 	background: #4B79A1; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #345673 , #264157); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #345673 , #264157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to left, #688ba9, #264157); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #688ba9 , #264157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .tuition-dates .button {
