@@ -212,7 +212,7 @@ a:hover {
 /* BEGIN APPLY HERO */
 
 .apply-hero {
-	background-image: url('images/bg3.jpg');
+	background-image: url('images/bg4.jpg');
 	background-size: cover;
 	background-position: center center;
 	height: 600px;
@@ -427,13 +427,13 @@ header {
 
 .experts li {
 	display: inline-block;
-	width: 18%;
-	margin-right: 2%;
+	width: 22%;
+	margin-right: 4%;
 	margin-bottom: 36px;
 	vertical-align: top;
 }
 
-.experts li:nth-child(5n) {
+.experts li:nth-child(4n) {
 	margin-right: 0;
 }
 
@@ -690,14 +690,15 @@ header {
 /* BEGIN CURRICULUM HERO */
 
 .curriculum-hero {
-	background-image: url('images/bg2.png');
+	background-image: url('images/learn.jpg');
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	height: 600px;
 }
 
 .curriculum-hero .filter {
 	height: 600px;
+	background-color: rgba(0,0,0,0.7);
 }
 
 /* END CURRICULUM HERO */
@@ -847,7 +848,7 @@ header {
 }
 
 .part-2 .industry .icon img {
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
@@ -958,11 +959,7 @@ footer ul {
 		margin-right: 2%;
 	}
 
-	.experts li:nth-child(5n) {
-		margin-right: 2%;
-	}
-
-	.experts li:nth-child(5n) {
+	.experts li:nth-child(4n) {
 		margin-right: 0;
 	}
 
@@ -1181,11 +1178,7 @@ footer ul {
 		margin-right: 3.33%;
 	}
 
-	.experts li:nth-child(5n) {
-		margin-right: 0;
-	}
-
-	.experts li:nth-child(3n) {
+	.experts li:nth-child(4n) {
 		margin-right: 3.33%;
 	}
 
