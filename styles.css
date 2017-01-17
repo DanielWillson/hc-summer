@@ -205,7 +205,11 @@ a:hover {
 	background-image: url('images/bg.jpg');
 	background-size: cover;
 	background-position: top center;
-	height: 100vh;
+	height: 800px;
+}
+
+.top .filter {
+	height: 800px;
 }
 
 /* END TOP */

@@ -1,9 +1,8 @@
-window.onload = function() {
-	var vh = $(".vh").height() + 60;
-	console.log(vh);
-	$(".vh").height(vh);
-	console.log("test");
-};
+// window.onload = function() {
+// 	var vh = $(".vh").height() + 60;
+// 	console.log(vh);
+// 	$(".vh").height(vh);
+// };
 
 function showHide() {
 	var disp = document.getElementById('check').style.display;
