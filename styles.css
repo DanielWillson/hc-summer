@@ -229,11 +229,11 @@ a:hover {
 	background-image: url('images/whiteboard.jpg');
 	background-size: cover;
 	background-position: top center;
-	height: 600px;
+	height: 650px;
 }
 
 .tuition-hero .filter {
-	height: 600px;
+	height: 650px;
 }
 
 /* END TUITION HERO */
@@ -246,7 +246,7 @@ header {
 	padding: 18px 0;
 }
 
-.logo {
+header .logo {
 	height: 80px;
 	display: inline-block;
 	vertical-align: middle;
@@ -254,7 +254,7 @@ header {
 	margin-right: 3%;
 }
 
-.logo img {
+header .logo img {
 	height: 100%;
 	width: auto;
 }
@@ -693,11 +693,11 @@ header {
 	background-image: url('images/learn.jpg');
 	background-size: cover;
 	background-position: top center;
-	height: 600px;
+	height: 650px;
 }
 
 .curriculum-hero .filter {
-	height: 600px;
+	height: 650px;
 	background-color: rgba(0,0,0,0.7);
 }
 
@@ -1322,7 +1322,7 @@ footer ul {
 	}
 
 	.part-heading h3 {
-		font-size: 1em;
+		font-size: 14px;
 	}
 
 
