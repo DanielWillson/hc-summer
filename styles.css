@@ -706,6 +706,110 @@ header .logo img {
 }
 
 /* END CURRICULUM HERO */
+/* BEGIN OUTCOMES HERO */
+
+.outcomes-hero {
+	background-image: url('images/learn.jpg');
+	background-size: cover;
+	background-position: top center;
+	height: 700px;
+}
+
+.outcomes-hero .filter {
+	height: 700px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+/* END OUTCOMES HERO */
+/* BEGIN OUTCOME EXAMPLES */
+
+.outcomes img {
+	width: 100%;
+	height: auto;
+}
+
+.outcomes h1 {
+	margin-bottom: 0;
+}
+
+.outcomes h4 {
+	font-family: Gotham;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.arthur {
+	background-image: url('images/arthur.jpg');
+	background-size: cover;
+	background-position: center center;
+	height: 600px;
+	color: white;
+}
+
+.arthur .filter {
+	height: 600px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.arthur-content {
+	padding: 72px 0;
+	max-width: 50%;
+}
+
+.jessica {
+	background: #4B79A1;
+    background: -webkit-linear-gradient(to left, #345673 , #0e1c27);
+    background: linear-gradient(to left, #345673 , #0e1c27);
+	padding: 72px 0;
+	color: white;
+}
+
+.jessica-profile { 
+	width: 20%;
+	margin-right: 5%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 72px;
+}
+
+.jessica-content {
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slack-pic {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-left: 5%;
+}
+
+.jess-more {
+	display: inline-block;
+	vertical-align: top;
+	width: 55%;
+}
+
+.matt {
+	padding: 72px 0;
+}
+
+.matt-content {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.matt-pic {
+	width: 60%;
+	margin-left: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* END OUTCOME EXAMPLES */
 /* BEGIN PART 1 */
 
 .part-1 {
