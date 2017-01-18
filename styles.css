@@ -284,7 +284,8 @@ header .logo img {
 
 .nav li.current a {
 	color: rgb(2, 143, 197);
-	text-decoration: underline;
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgb(2, 143, 197);
 }
 
 .nav li.hamburger {
@@ -297,7 +298,9 @@ header .logo img {
 }
 
 .nav li a:hover {
-	text-decoration: underline;
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgb(2, 143, 197);
+	color: rgb(2, 143, 197);
 	cursor: pointer;
 }
 
@@ -709,7 +712,7 @@ header .logo img {
 /* BEGIN OUTCOMES HERO */
 
 .outcomes-hero {
-	background-image: url('images/learn.jpg');
+	background-image: url('images/bg6.jpg');
 	background-size: cover;
 	background-position: top center;
 	height: 700px;
