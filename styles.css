@@ -738,22 +738,51 @@ header .logo img {
 	font-weight: 200;
 }
 
-.arthur {
-	background-image: url('images/arthur.jpg');
+.jordan {
+	background-image: url('images/jordan.jpg');
 	background-size: cover;
 	background-position: center center;
-	height: 600px;
+	height: 700px;
 	color: white;
 }
 
-.arthur .filter {
-	height: 600px;
-	background-color: rgba(0,0,0,0.7);
+.jordan .filter {
+	height: 700px;
+	background-color: rgba(0,0,0,0.6);
 }
 
-.arthur-content {
-	padding: 72px 0;
-	max-width: 50%;
+.jordan-content {
+	padding-top: 400px;
+	padding-bottom: 36px;
+	max-width: 80%;
+	width: 100%;
+}
+
+.more-jordan {
+	background: #485563;
+    background: -webkit-linear-gradient(to left, #485563 , #29323c);
+    background: linear-gradient(to left, #485563 , #29323c);
+    color: white;
+}
+
+.more-jordan-left {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	margin-right: 10%;
+	padding: 36px 0;
+}
+
+.more-jordan-right {
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	padding: 54px 0;
+}
+
+.more-jordan-right img {
+	width: 100%;
+	height: auto;
 }
 
 .jessica {
@@ -791,18 +820,47 @@ header .logo img {
 	width: 55%;
 }
 
+
 .matt {
-	padding: 72px 0;
+	background-image: url('images/matt2.jpg');
+	background-size: cover;
+	background-position: top center;
+	height: 750px;
+	color: white;
+	
 }
 
-.matt-content {
-	width: 30%;
+.matt .filter {
+	height: 750px;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.matt .spacer {
+	width: 50%;
 	display: inline-block;
 	vertical-align: top;
 }
 
+.matt .matt-first {
+	width: 50%;
+	padding: 72px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.matt-more {
+	padding: 72px 0;
+}
+
+.matt-content {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
 .matt-pic {
-	width: 60%;
+	width: 50%;
 	margin-left: 10%;
 	display: inline-block;
 	vertical-align: top;
@@ -1221,6 +1279,68 @@ footer ul {
 
 
 	/* END PART 1 */
+	/* BEGIN OUTCOMES */
+
+	.jessica-profile {
+		display: block;
+		width: 30%;
+		margin-bottom: 18px;
+	}
+
+	.jessica-content,
+	.jess-more {
+		display: block;
+		width: 100%;
+		
+	}
+
+	.slack-pic {
+		display: block;
+		width: 65%;
+		margin-left: 0;
+	}
+
+	.spacer {
+		display: none;
+	}
+
+	.matt .matt-first {
+		display: block;
+		width: 100%;
+		padding-top: 350px;
+	}
+
+	.matt,
+	.matt .filter {
+		height: 950px;
+	}
+
+	.matt-content {
+		width: 100%;
+		margin-bottom: 36px;
+	}
+
+	.matt-pic {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.jordan-content {
+		padding-top: 300px;
+		max-width: 100%;
+	}
+
+	.more-jordan-left, 
+	.more-jordan-right {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.more-jordan-right {
+		padding-top: 0;
+	}
+
+	/* END OUTCOMES */
 
 }
 
@@ -1331,6 +1451,15 @@ footer ul {
 		margin-bottom: 18px;
 		border-left: none;
 	}
+	/* END FOOTER */
+	/* BEGIN OUTCOMES */
+
+	.slack-pic {
+		width: 100%;
+	}
+
+	/* END OUTCOMES */
+
 
 }
 
@@ -1466,6 +1595,21 @@ footer ul {
 
 
 	/* END PART 3 */
+	/* BEGIN OUTCOMES */
+
+	.matt {
+		background-position: 25% 50%;
+	}
+
+	.matt .matt-first {
+		padding-top: 72px;
+	}
+
+	.jordan-content {
+		padding-top: 72px;
+	}
+
+	/* END OUTCOMES */
 
 
 
