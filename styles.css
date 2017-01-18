@@ -762,10 +762,10 @@ header .logo img {
 }
 
 .more-jordan {
-	background: #485563;
+	/*background: #485563;
     background: -webkit-linear-gradient(to left, #485563 , #29323c);
     background: linear-gradient(to left, #485563 , #29323c);
-    color: white;
+    color: white;*/
 }
 
 .more-jordan-left {
@@ -830,7 +830,7 @@ header .logo img {
 	background-position: top center;
 	height: 750px;
 	color: white;
-	
+	border-top: 2px solid white;	
 }
 
 .matt .filter {
