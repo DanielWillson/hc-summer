@@ -39,7 +39,7 @@
 						<li><a href="index.html" alt="Launch Home">Home</a></li>
 						<li><a href="curriculum.html" alt="Launch Curriculum">Curriculum</a></li>
 						<li><a href="outcomes.html" alt="Launch Outcomes">Outcomes</a></li>
-						<li class="current"><a href="tuition.html" alt="Launch Tuition">Tuition</a></li>
+						<li class="current"><a href="tuition.html" alt="Launch Tuition">Payment</a></li>
 						<li><a href="apply.html" alt="Apply to Launch">Apply</a></li>
 					</span>
 				</ul>
@@ -48,14 +48,13 @@
 		<div class="hero">
 			<div class="main-container">
 				<div class="hero-text">
-					<h1>Tuition & Scholarships</h1>
-					<p>HackCville's Launch summer program offers a unique combination of skill building, networking, and hands-on projects unlike any summer program available. All of this is included for a dramatically lower cost than comparable programs.</p>
-					<p>Scholarships are available to assist students with financial need. Financial need has no impact on your application to Launch.</p>
+					<h1>Payment</h1>
+					<p>HackCville's Launch summer program offers a unique combination of skill building, networking, and hands-on projects unlike any summer program available. All of this is not just free - students are paid a $1000 stipend.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="tuition-dates">
+	<!-- <div class="tuition-dates">
 		<div class="main-container">
 			<h1 class="heading">Tuition increases the later you apply.</h1>
 			<div class="column">
@@ -109,7 +108,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="program-comparison">
 		<div class="main-container">
 			<div class="program-comparison-content">
@@ -204,6 +203,9 @@
 				table.rg-table th.number, td.number {
 					text-align: right;
 				}
+				table.rg-table tr td.bold{
+					font-weight: bold;
+				}
 
 				/* media queries */
 				@media screen and (max-width: 600px) {
@@ -287,6 +289,12 @@
 				table.rg-table .highlight td {
 					background: none;
 				}
+				table .bold strong { 
+					font-weight: bold !important;}
+				}
+
+				strong {
+					font-weight: bold;
 				}
 				</style>
 				<div class='rg-container'>
@@ -298,7 +306,7 @@
 								<th class='text '>Skills Training</th>
 								<th class='text '>Industry Immersion</th>
 								<th class='text '>Career Support</th>
-								<th class='text '>Entrepreneurship Training</th>
+								<th class='text '>Immersive Internship</th>
 								<th class='text '>Full<br>Cost</th>
 							</thead>
 							<tbody>
@@ -309,8 +317,8 @@
 									<td class='text ' data-title='Intensive Skills Training'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Industry Immersion'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Career Support'><img src="images/checkmark.png" class="check" /></td>
-									<td class='text ' data-title='Entrepreneurship Education'><img src="images/checkmark.png" class="check" /></td>
-									<td class='text ' data-title='Full Cost'>$3,500</td>
+									<td class='text ' data-title='Immersive Internship'><img src="images/checkmark.png" class="check" /></td>
+									<td class='text bold' data-title='Full Cost'><strong>You're paid $1000</strong></td>
 								</tr>
 
 
@@ -320,8 +328,8 @@
 									<td class='text ' data-title='Intensive Skills Training'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Industry Immersion'><img src="images/x.png" class="x" /></td>
 									<td class='text ' data-title='Career Support'><img src="images/checkmark.png" class="check" /></td>
-									<td class='text ' data-title='Entrepreneurship Education'><img src="images/x.png" class="x" /></td>
-									<td class='text ' data-title='Full Cost'>$13,500</td>
+									<td class='text ' data-title='Immersive Internship'><img src="images/x.png" class="x" /></td>
+									<td class='text ' data-title='Full Cost'>You pay $13,500</td>
 								</tr>
 
 								<tr class=''>
@@ -330,8 +338,8 @@
 									<td class='text ' data-title='Intensive Skills Training'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Industry Immersion'><img src="images/x.png" class="x" /></td>
 									<td class='text ' data-title='Career Support'><img src="images/x.png" class="x" /></td>
-									<td class='text ' data-title='Entrepreneurship Education'><img src="images/x.png" class="x" /></td>
-									<td class='text ' data-title='Full Cost'>$3,779 in-state<br>$12,569 out</td>
+									<td class='text ' data-title='Immersive Internship'><img src="images/x.png" class="x" /></td>
+									<td class='text ' data-title='Full Cost'>You pay $3,779 in-state<br>$12,569 out</td>
 								</tr>
 
 								<tr class=''>
@@ -340,8 +348,8 @@
 									<td class='text ' data-title='Intensive Skills Training'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Industry Immersion'><img src="images/checkmark.png" class="check" /></td>
 									<td class='text ' data-title='Career Support'><img src="images/checkmark.png" class="check" /></td>
-									<td class='text ' data-title='Entrepreneurship Education'><img src="images/x.png" class="x" /></td>
-									<td class='text ' data-title='Full Cost'>$11,900</td>
+									<td class='text ' data-title='Immersive Internship'><img src="images/checkmark.png" class="check" /></td>
+									<td class='text ' data-title='Full Cost'>You pay $11,900</td>
 								</tr>
 							
 							</tbody>
@@ -357,15 +365,14 @@
 			<div class="whats-included-left">
 				<h1>What's Included</h1>
 				<ul>
-					<li>Full access to the 11-week program curriculum, mentorship, and resources</li>
+					<li>Full access to the 12-week program curriculum, mentorship, and resources</li>
 					<li>24/7 access to HackCville's two workspaces on Elliewood Avenue for the duration of the program</li>
 					<li>Upon completion of the program, you'll be granted HackCville membership, giving you advance access to other HackCville programs and exclusive job opportunities</li>
-					<li>There are no additional textbooks to buy or fees to pay after the cost of tuition. You won't have to pay for summer housing either if you already have an apartment in Charlottesville.
+					<li>There are no additional textbooks to buy or fees to pay after the cost of tuition. You won't have to pay for summer housing either if you already have an apartment in Charlottesville.</li>
 				</ul>
 			</div><div class="whats-included-right">
-				<h1>About Our Scholarships</h1>
-				<p>Scholarships are available to students with financial need thanks to generous donations from our alumni donors and company sponsors. Some of our scholarships will cover up to 100% of the summer tuition cost.</p>
-				<p>You'll be asked to note if you have financial need on your application for Launch. If you questions about this, please don't hesitate to email us at <a href="mailto:launch@hackcville.com" target="_blank">launch@hackcville.com.</a></p>
+				<h1>How can we do this?</h1>
+				<p>Our company partners make a donation to HackCville to fund our students' education. We pay students their $1000 stipend out of this donation. If you have further questions, send us an email at launch@hackcville.com.</p>
 			</div>
 		</div>
 	</div>
@@ -417,7 +424,7 @@
 						<li><a href="index.html" alt="Launch Home">Home</a></li>
 						<li><a href="curriculum.html" alt="Launch Curriculum">Curriculum</a></li>
 						<li><a href="outcomes.html" alt="Launch Outcomes">Student Outcomes</a></li>
-						<li><a href="tuition.html" alt="Launch Tuition">Tuition</a></li>
+						<li><a href="tuition.html" alt="Launch Tuition">Payment</a></li>
 						<li><a href="apply.html" alt="Apply to Launch">Apply</a></li>
 					</ul>
 					<p>Copyright 2017. All rights reserved.</p>
