@@ -505,6 +505,7 @@ header .logo img {
 	margin-right: 9%;
 	margin-bottom: 36px;
 	vertical-align: middle;
+	text-align: center;
 }
 
 .partners li:nth-child(3n) {
@@ -526,6 +527,10 @@ header .logo img {
 
 .partners li a {
 	color: #7ecdff;
+}
+
+.partners.companies .partner {
+	min-height: 108px;
 }
 
 .partners .partner img {
@@ -904,7 +909,8 @@ header .logo img {
 }
 
 .track-a,
-.track-b {
+.track-b,
+.track-c {
 	padding: 36px 0;
 }
 
