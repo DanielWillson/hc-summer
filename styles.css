@@ -212,6 +212,12 @@ a:hover {
 	height: 800px;
 }
 
+.companies .top,
+.companies .top .filter {
+	height: 600px;
+	background-position: center center;
+}
+
 /* END TOP */
 /* BEGIN APPLY HERO */
 
