@@ -605,6 +605,25 @@ header .logo img {
     color: white;
 }
 
+#faq h3.step-heading {
+	margin-top: 36px;
+	/*margin-bottom: 10px;*/
+}
+
+#faq h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#faq p {
+	margin-bottom: 18px;
+	margin-top: 5px;
+}
+
+#faq hr {
+	margin-top: 36px;
+}
+
 .step {
 	padding: 9px 0;
 	max-width: 900px;
