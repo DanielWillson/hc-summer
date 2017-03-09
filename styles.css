@@ -1374,6 +1374,27 @@ footer ul {
 /* END FOOTER */
 
 @media screen and (max-width: 1100px) {
+	
+	/* BEGIN COMPARISON */
+
+	.program {
+		width: 44%;
+	    padding: 25px 2%;
+	    margin-right: 3%;
+	    transition: .2s;
+	}
+
+	.bootcamp {
+		margin-right: 0;
+	}
+
+
+	.top.new, 
+	.top.new .filter {
+		height: 900px;
+	}
+
+	/* END COMPARISON */
 	/* BEGIN HEADER */
 
 	header .logo {
@@ -1465,6 +1486,20 @@ footer ul {
 
 @media screen and (max-width: 900px) {
 
+	/* BEGIN COMPARISON */
+
+	.program {
+	    width: 90%;
+	    padding: 25px 5%;
+	    transition: .2s;
+	    margin-bottom: 30px;
+	}
+
+	.top.new, .top.new .filter {
+	    height: 1220px;
+	}
+
+	/* END COMPARISON */
 	/* HEADER */
 	.filter {
 		background-color: rgba(0,0,0,0.65);
@@ -1735,6 +1770,18 @@ footer ul {
 
 @media screen and (max-width: 675px) {
 
+	/* BEGIN COMPARISON */
+
+	.program {
+	    width: 95%;
+	    padding: 15px 2.5%;
+	}
+
+	.top.new, .top.new .filter {
+	    height: 1275px;
+	}
+
+	/* END COMPARISON */
 	/* BEGIN OVERVIEW */
 
 	.column .column-image,
@@ -1884,4 +1931,14 @@ footer ul {
 
 
 }
+@media screen and (max-width: 500px) {
 
+	/* BEGIN COMPARISON */
+
+	.top.new, .top.new .filter {
+	    height: 1600px;
+	}
+
+	/* END COMPARISON */
+
+}
