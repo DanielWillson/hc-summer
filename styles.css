@@ -284,16 +284,39 @@ a:hover {
 
 .b .top {
 	background-image: url('images/bg7.jpg');
-
 }
 
-.b.home .hero-text {
+.b .curriculum-hero {
+	background-image: url('images/bg-girl-laptop.jpg');
+	background-position: center center;
+	height: 750px;
+}
+
+.b .curriculum-hero .filter {
+	height: 750px;
+}
+
+.b .outcomes-hero {
+	background-image: url('images/bg-chris.jpg')
+}
+
+.b .tuition-hero {
+	background-image: url('images/bg-flyer.jpg');
+	background-position: center center;
+}
+
+.b .apply-hero {
+	background-image: url('images/bg-oh.jpg');
+}
+
+.b .hero-text {
 	position: absolute;
     right: 0;
 }
 
-.curriculum-hero .hero-text {
+.b .curriculum-hero .hero-text {
 	max-width: 650px;
+	padding-top: 55px;
 }
 
 .top .filter {
@@ -1784,6 +1807,10 @@ footer ul {
 		padding-top: 50px;
 	}
 
+	.b .hero-text {
+		position: relative;
+	}
+
 	/* END PROGRAM BAR */
 	/* BEGIN COMPARISON */
 
@@ -1855,8 +1882,8 @@ footer ul {
 	/* END EXPERTS */
 	/* BEGIN CURRICULUM HERO */
 
-	.curriculum-hero,
-	.curriculum-hero .filter {
+	.b .curriculum-hero,
+	.b .curriculum-hero .filter {
 		height: 750px;
 	}
 
@@ -1965,8 +1992,8 @@ footer ul {
 	/* END COMPARISON */
 	/* BEGIN CURRICULUM HERO */
 
-	.curriculum-hero,
-	.curriculum-hero .filter {
+	.b .curriculum-hero,
+	.b .curriculum-hero .filter {
 		height: 850px;
 	}
 
