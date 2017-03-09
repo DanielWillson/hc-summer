@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 12px;
 	padding-top: 8px;
 	z-index: 10;
+	border-bottom: 1px solid #222;
 }
 
 .program-bar a {
@@ -464,26 +465,26 @@ header {
 }
 
 header .logo {
-	height: 80px;
 	display: inline-block;
 	vertical-align: middle;
-	width: 25%;
-	margin-right: 3%;
+	width: 230px;
+	margin-right: 40px;
 }
 
 header .logo img {
-	height: 100%;
-	width: auto;
+	width: 100%;
+	height: auto;
 }
 
 .nav {
 	list-style: none;
 	display: inline-block;
-	width: 80%;
+	/*width: 80%;*/
 	padding-left: 0;
-	vertical-align: middle;
 	text-align: right;
-	position: relative;
+	position: absolute;
+    right: 0;
+    padding-top: 8px;
 }
 
 .nav li {
@@ -492,7 +493,7 @@ header .logo img {
 	font-weight: 500;
 	text-transform: uppercase;
 	color: white;
-	margin-left: 18px;
+	margin-left: 14px;
 }
 
 .nav li.current a {
@@ -941,7 +942,7 @@ header .logo img {
 	height: auto;
 }
 
-.logo {
+.program-comparison .logo {
 	max-height: 80px;
 	max-width: 180px;
 	height: auto;
@@ -1372,6 +1373,24 @@ footer ul {
 
 /* END FOOTER */
 
+@media screen and (max-width: 1100px) {
+	/* BEGIN HEADER */
+
+	header .logo {
+		width: 150px;
+	}
+
+	.nav {
+		padding-top: 4px;
+		font-size: 10px;
+	}
+
+	.nav li {
+		font-size: 16px;
+	}
+
+	/* END HEADER */
+}
 
 
 
@@ -1452,14 +1471,50 @@ footer ul {
 		transition: 0.2s;
 	}
 
-	.logo-container {
-		height: 70px;
+	/* Change nav to hamburger button */
+
+	.nav #check {
+		display: none;
 	}
 
-	.nav li {
-		font-size: 16px;
-		margin-left: 16px;
+	.nav li.hamburger {
+		display: block;
+		height: 25px;
 	}
+
+	.nav li.hamburger:hover {
+		cursor: pointer;
+	}
+
+	.nav li.hamburger img {
+		height: 100%;
+		width: auto;
+	}
+
+	.nav #check {
+		position: absolute;
+		right: 0;
+		margin-top: 10px;
+	}
+
+	.nav #check li {
+		display: block;
+		font-size: 24px;
+		width: 225px;
+		background: rgba(0,0,0,0.85);
+		padding: 10px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+	}
+
+	.nav #check li:hover {
+		cursor: pointer;
+	}
+
+	.nav #check li:hover a {
+		text-decoration: underline;
+	}
+
+	
 	/* END HEADER */
 	/* BEGIN OVERVIEW */
 
@@ -1605,51 +1660,7 @@ footer ul {
 
 @media screen and (max-width: 800px) {
 
-	/* HEADER */
-	/* Change nav to hamburger button */
-
-	.nav #check {
-		display: none;
-	}
-
-	.nav li.hamburger {
-		display: block;
-		height: 30px;
-	}
-
-	.nav li.hamburger:hover {
-		cursor: pointer;
-	}
-
-	.nav li.hamburger img {
-		height: 100%;
-		width: auto;
-	}
-
-	.nav #check {
-		position: absolute;
-		right: 0;
-		margin-top: 10px;
-	}
-
-	.nav #check li {
-		display: block;
-		font-size: 24px;
-		width: 225px;
-		background: rgba(0,0,0,0.85);
-		padding: 10px;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.16);
-	}
-
-	.nav #check li:hover {
-		cursor: pointer;
-	}
-
-	.nav #check li:hover a {
-		text-decoration: underline;
-	}
-
-	/* END HEADER */
+	
 	/* BEGIN PULLQUOTE */
 
 	.pullquote h1 {
