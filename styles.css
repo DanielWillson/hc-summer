@@ -287,9 +287,13 @@ a:hover {
 
 }
 
-.b .hero-text {
+.b.overview .hero-text {
 	position: absolute;
     right: 0;
+}
+
+.curriculum-hero .hero-text {
+	max-width: 650px;
 }
 
 .top .filter {
@@ -1770,6 +1774,17 @@ footer ul {
 
 @media screen and (max-width: 675px) {
 
+	/* PROGRAM BAR */
+
+	.program-bar {
+		height: 42px;
+	}
+
+	.bp {
+		padding-top: 50px;
+	}
+
+	/* END PROGRAM BAR */
 	/* BEGIN COMPARISON */
 
 	.program {
@@ -1838,6 +1853,14 @@ footer ul {
 	}
 
 	/* END EXPERTS */
+	/* BEGIN CURRICULUM HERO */
+
+	.curriculum-hero,
+	.curriculum-hero .filter {
+		height: 750px;
+	}
+
+	/* END CURRICULUM HERO */
 	/* BEGIN PARTNERS */
 
 	.partners li {
@@ -1940,5 +1963,13 @@ footer ul {
 	}
 
 	/* END COMPARISON */
+	/* BEGIN CURRICULUM HERO */
+
+	.curriculum-hero,
+	.curriculum-hero .filter {
+		height: 850px;
+	}
+
+	/* END CURRICULUM HERO */
 
 }
