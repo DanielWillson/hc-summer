@@ -139,7 +139,60 @@ h1, h2, h3, h4, h5 {
     font-style: normal;
 }
 
+.program-bar {
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	height: 27px;
+	text-align: center;
+	color: white;
+	/*text-transform: uppercase;*/
+	font-size: 12px;
+	padding-top: 8px;
+	z-index: 10;
+}
 
+.bp {
+	padding-top: 35px;
+}
+
+.b a,
+.b .experts li a,
+.b .nav li.current a,
+.b .nav li a:hover {
+	color: rgb(165, 61, 255);
+}
+
+.b .signup .button,
+.c .bootcamp .signup .button {
+	background-color: rgb(165, 61, 255);
+}
+
+.b .signup .button:hover,
+.b .nav li.current a,
+.b .nav li a:hover {
+	border-color: rgb(165, 61, 255);;
+}
+
+.c .nav li.current a,
+.c .nav li a:hover {
+	border-color: white;
+}
+
+.c .nav li.current a,
+.c .nav li a:hover {
+	color: white;
+}
+
+.c .bootcamp .signup .button:hover {
+	background-color: white;
+	border-color: rgb(165, 61, 255);;
+}
+
+.c footer a {
+	color: white;
+	text-decoration: underline;
+}
 
 
 .main-container {
@@ -208,6 +261,16 @@ a:hover {
 	height: 800px;
 }
 
+.b .top {
+	background-image: url('images/bg7.jpg');
+
+}
+
+.b .hero-text {
+	position: absolute;
+    right: 0;
+}
+
 .top .filter {
 	height: 800px;
 }
@@ -234,6 +297,7 @@ a:hover {
     background: -webkit-linear-gradient(to left, #345673 , #0e1c27);
     background: linear-gradient(to left, #345673 , #0e1c27);
 	height: 800px;
+	padding-top: 0;
 }
 
 .new .filter {
@@ -311,10 +375,18 @@ a:hover {
 
 .academy .signup .button,
 .academy .signup .button:hover {
-	background-color: rgb(159, 0, 0);
+	/*background-color: rgb(159, 0, 0);
 	color: white;
+	
+	font-weight: 300;*/
 	border: 1px solid white;
-	font-weight: 300;
+
+	color: white;
+	background-color: rgb(2, 143, 197);
+}
+
+.academy .signup .button:hover {
+	
 }
 
 .bootcamp .signup .button,
