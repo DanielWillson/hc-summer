@@ -140,7 +140,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .program-bar {
-	width: 100%;
+	width: 90%;
+	padding: 0 5%;
 	background-color: rgb(2, 143, 197);
 	position: fixed;
 	height: 27px;
@@ -794,7 +795,11 @@ header .logo img {
 	background-position: center center;
 	color: white;
 	text-align: center;
-	height: 100vh;
+	height: 775px;
+}
+
+.learn-more .filter {
+	height: 775px;
 }
 
 .learn-more-content {
@@ -1551,6 +1556,7 @@ footer ul {
 	.nav li.hamburger img {
 		height: 100%;
 		width: auto;
+		padding-right: 18px;
 	}
 
 	.nav #check {
