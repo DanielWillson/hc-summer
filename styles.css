@@ -1562,6 +1562,7 @@ footer ul {
 	.nav #check {
 		position: absolute;
 		right: 0;
+		margin-right: 18px;
 		margin-top: 10px;
 	}
 
@@ -1576,10 +1577,6 @@ footer ul {
 
 	.nav #check li:hover {
 		cursor: pointer;
-	}
-
-	.nav #check li:hover a {
-		text-decoration: underline;
 	}
 
 	
