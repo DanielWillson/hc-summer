@@ -141,19 +141,39 @@ h1, h2, h3, h4, h5 {
 
 .program-bar {
 	width: 100%;
-	background-color: black;
+	background-color: rgb(2, 143, 197);
 	position: fixed;
 	height: 27px;
 	text-align: center;
 	color: white;
-	/*text-transform: uppercase;*/
 	font-size: 12px;
 	padding-top: 8px;
 	z-index: 10;
 }
 
+.program-bar a {
+	text-decoration: underline;
+	color: white;
+}
+
+.b .program-bar {
+	background-color: rgb(165, 61, 255);
+}
+
+.b .program-bar a {
+	color: white;
+}
+
 .bp {
 	padding-top: 35px;
+}
+
+.companies.a .bp {
+	padding-top: 0;
+}
+
+.companies.a .program-bar {
+	display: none;
 }
 
 .b a,
@@ -275,6 +295,10 @@ a:hover {
 	height: 800px;
 }
 
+.companies .top {
+	background-image: url('images/bg6.jpg')
+}
+
 .companies .top,
 .companies .top .filter {
 	height: 650px;
@@ -333,6 +357,10 @@ a:hover {
     border: 1px solid rgba(169, 169, 169, 0.35);
 	/*color: black;
 	background: white;*/
+}
+
+.program a:hover {
+	text-decoration: none;
 }
 
 .bootcamp {
@@ -1121,7 +1149,7 @@ header .logo img {
 }
 
 .part-1-heading {
-	z-index: 2;
+	z-index: 15;
 }
 
 .part-1-content,
@@ -1225,7 +1253,7 @@ header .logo img {
 }
 
 .part-2-heading {
-	z-index: 3;
+	z-index: 16;
 }
 
 .part-2 .industry {
