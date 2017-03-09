@@ -219,6 +219,113 @@ a:hover {
 }
 
 /* END TOP */
+/* BEGIN NEW INDEX */
+
+.new {
+	color: white;
+	background-color: black;	
+	border-bottom: 2px solid white;	
+}
+
+.top.new {
+	background-image: url('images/bg7.jpg');
+	background-image: none;
+	background: #4B79A1;
+    background: -webkit-linear-gradient(to left, #345673 , #0e1c27);
+    background: linear-gradient(to left, #345673 , #0e1c27);
+	height: 800px;
+}
+
+.new .filter {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 800px;
+}
+
+.new header {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.new .heading {
+	margin-top: 36px;
+	text-align: center;
+}
+
+.new .heading h1 {
+	margin-bottom: 10px;
+}
+
+.new .heading p {
+	margin-top: 0;
+	margin-bottom: 36px;
+}
+
+.program {
+	display: inline-block;
+	vertical-align: top;
+	width: 41%;
+	padding: 30px 3%;
+	margin-right: 5%;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(169, 169, 169, 0.35);
+	/*color: black;
+	background: white;*/
+}
+
+.bootcamp {
+	margin-right: 0;
+}
+
+.program .title {
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+.program h2, 
+.program h3, 
+.program h4 {
+	margin: 0;
+	margin-bottom: 5px;
+} 
+
+.program h2 {
+	font-family: Gotham;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.program h3 {
+	font-family: Gotham;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.program .signup-wrapper h4 {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.program .signup-wrapper {
+	text-align: center;
+}
+
+.academy .signup .button,
+.academy .signup .button:hover {
+	background-color: rgb(159, 0, 0);
+	color: white;
+	border: 1px solid white;
+	font-weight: 300;
+}
+
+.bootcamp .signup .button,
+.bootcamp .signup .button:hover,
+.program .button,
+.program .button:hover {
+	border-width: 1px;
+}
+
+
+/* END NEW INDEX */
 /* BEGIN APPLY HERO */
 
 .apply-hero {
@@ -272,7 +379,7 @@ header .logo img {
 .nav {
 	list-style: none;
 	display: inline-block;
-	width: 72%;
+	width: 80%;
 	padding-left: 0;
 	vertical-align: middle;
 	text-align: right;
