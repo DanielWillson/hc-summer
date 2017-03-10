@@ -439,8 +439,7 @@ a:hover {
 	text-align: center;
 }
 
-.academy .signup .button,
-.academy .signup .button:hover {
+.academy .signup .button {
 	/*background-color: rgb(159, 0, 0);
 	color: white;
 	
@@ -449,10 +448,12 @@ a:hover {
 
 	color: white;
 	background-color: rgb(2, 143, 197);
+	font-weight: 300;
 }
 
 .academy .signup .button:hover {
-	
+	font-weight: 300;
+	border-width: 1px;
 }
 
 .bootcamp .signup .button,
