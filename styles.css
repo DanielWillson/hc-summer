@@ -334,6 +334,15 @@ a:hover {
 	background-position: center center;
 }
 
+.companies .hero-text {
+	max-width: 600px;
+	padding-top: 42px;
+}
+
+.companies .overview {
+	padding: 42px 0;
+}
+
 /* END TOP */
 /* BEGIN NEW INDEX */
 
@@ -617,6 +626,36 @@ header .logo img {
 .overview .left {
 	margin-right: 5%;
 }
+
+/* -- COMPANY CHANGES -- */
+
+.companies .column {
+	width: 100%;
+	margin-bottom: 36px;
+}
+
+.companies .column-image {
+	width: 40%;
+	margin-right: 3%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.companies .column-image img {
+	width: 100%;
+}
+
+.companies .column-content {
+	width: 57%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+}
+
+.companies .column-content h2 {
+	margin-top: 0;
+}
+
 
 /* END OVERVIEW */
 /* BEGIN PULLQUOTE */
@@ -1602,6 +1641,14 @@ footer ul {
 		margin-top: 0;
 	}
 
+
+	.companies .column-image,
+	.companies .column-content {
+		width: 100%;
+	}
+
+
+
 	/* END OVERVIEW */
 	/* BEGIN TUITION DATES */
 
@@ -2001,5 +2048,13 @@ footer ul {
 	}
 
 	/* END CURRICULUM HERO */
+	/* BEGIN COMPANY HERO */
+
+
+	.companies .top, 
+	.companies .top .filter {
+    height: 850px;
+
+	/* END COMPANY HERO */
 
 }
