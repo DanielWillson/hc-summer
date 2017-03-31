@@ -287,6 +287,11 @@ a:hover {
 	background-image: url('images/bg7.jpg');
 }
 
+.b .top .filter,
+.b .top {
+	height: 650px;
+}
+
 .b .curriculum-hero {
 	background-image: url('images/bg-girl-laptop.jpg');
 	background-position: center center;
@@ -592,7 +597,7 @@ header .logo img {
 }
 
 .column-image img {
-	width: 95%;
+	width: 90%;
 	height: auto;
 }
 
@@ -1181,6 +1186,13 @@ header .logo img {
 
 .matt-more {
 	padding: 72px 0;
+	
+
+	background: #141E30; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
+	color: white;
 }
 
 .matt-content {
@@ -1195,6 +1207,50 @@ header .logo img {
 	margin-left: 10%;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.grid {
+/*	background-color: black;
+	color: white;*/
+	padding: 48px 0;
+}
+
+.grid .person,
+.person .headshot,
+.person .logo,
+.person .info {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.grid .person {
+	width: 47.5%;
+	margin-right: 5%;
+	vertical-align: top;
+	margin-top: 36px;
+}
+
+.grid .person:nth-child(2n-1) {
+	margin-right: 0;
+}
+
+.person .headshot {
+	width: 15%;
+	margin-right: 5%;
+}
+
+.person .logo {
+	width: 25%;
+	margin-right: 5%;
+}
+
+.person .info {
+	width: 50%;
+}
+
+.person .info h3,
+.person .info p {
+	margin: 0;
 }
 
 
@@ -1444,6 +1500,58 @@ footer ul {
 
 
 /* END FOOTER */
+/* BEGIN PAYMENT OPTIONS */
+
+.payment-options {
+	padding: 48px 0;
+}
+
+.payment-options .heading {
+	text-align: center;
+}
+
+.payment-options .program {
+	box-shadow: 0 0 10px #ddd;
+}
+
+/* END PAYMENT OPTIONS */
+
+.cbic-bar-container {
+	box-shadow: rgba(0, 0, 0, 0.8) -1px 10px 15px -15px inset, rgba(0, 0, 0, 0.8) 0px -14px 15px -15px inset;
+}
+
+.cbic-bar {
+	height: 100px;
+	padding: 20px 0;
+	max-width: 575px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cbic-logo, .welcome {
+	width: 400px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cbic-logo {
+	width: 150px;
+	margin-right: 20px;
+}
+
+.welcome {
+	position: relative;
+	top: 10px;
+}
+
+.cbic-logo img {
+	height: 100%;
+	width: auto;
+}
+
+
+
+
 
 @media screen and (max-width: 1100px) {
 	
@@ -1767,7 +1875,19 @@ footer ul {
 		padding-top: 0;
 	}
 
+
+	/*.grid .person,
+.person .headshot,
+.person .logo,
+.person .info {*/
+
+	.grid .person {
+		width: 100%;
+		margin-right: 0;
+	}
+
 	/* END OUTCOMES */
+
 
 }
 
@@ -2028,7 +2148,19 @@ footer ul {
 	}
 
 	/* END OUTCOMES */
+	.cbic-bar {
+		height: 80px;
+	}
 
+	.cbic-logo {
+		margin-right: 5%;
+		width: 25%;
+		padding-left: 5%;
+	}
+
+	.welcome {
+		width: 65%;
+	}
 
 
 }
