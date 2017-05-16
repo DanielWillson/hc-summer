@@ -618,7 +618,7 @@ header .logo img {
 
 .pitch-image img {
 	width: 100%;
-	height:; auto;
+	height: auto;
 }
 
 .pitch-image {
@@ -1094,12 +1094,6 @@ header .logo img {
 	width: 100%;
 }
 
-.more-jordan {
-	/*background: #485563;
-    background: -webkit-linear-gradient(to left, #485563 , #29323c);
-    background: linear-gradient(to left, #485563 , #29323c);
-    color: white;*/
-}
 
 .more-jordan-left {
 	display: inline-block;
@@ -1257,9 +1251,6 @@ header .logo img {
 /* END OUTCOME EXAMPLES */
 /* BEGIN PART 1 */
 
-.part-1 {
-
-}
 
 .part-heading {
 	padding: 18px 0;
@@ -1376,11 +1367,6 @@ header .logo img {
 
 /* END PART 1 */
 /* BEGIN PART 2 */
-
-.part-2 {
-
-}
-
 .part-2-heading {
 	z-index: 16;
 }
@@ -1416,10 +1402,6 @@ header .logo img {
 
 /* END PART 2 */
 /* BEGIN PART 3 */
-
-.part-3 {
-
-}
 
 .part-3-heading {
 	z-index: 3;
@@ -2190,4 +2172,5 @@ footer ul {
 
 	/* END COMPANY HERO */
 
+}
 }
